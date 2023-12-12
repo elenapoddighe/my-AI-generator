@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 36px;
   font-weight: 800;
   line-height: 1.5;
@@ -56,6 +56,10 @@ form {
   background-color: whitesmoke;
   line-height: 1.5;
   padding: 20px;
+}
+
+.recipe strong {
+  color: #407088;
 }
 
 footer {
