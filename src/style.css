@@ -1,5 +1,5 @@
 body {
-  background-color: #407088;
+  background-color: #5e87b8;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,13 +20,16 @@ h1 {
   text-align: center;
 }
 
-form {
+.form-container {
+  background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  display: flex;
   margin-bottom: 30px;
-  padding: 30px;
-  background-color: whitesmoke;
+  padding: 20px 30px;
+}
+
+form {
+  display: flex;
 }
 
 .prompt {
@@ -41,12 +44,19 @@ form {
 .submit-button {
   border: none;
   border-radius: 15px;
-  background-color: #407088;
+  background-color: #5e87b8;
   color: white;
   font-size: 16px;
   margin-left: 10px;
   padding: 16px;
   width: 100px;
+}
+
+.example {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.6;
 }
 
 .recipe {
@@ -60,6 +70,10 @@ form {
 
 .recipe strong {
   color: #407088;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
